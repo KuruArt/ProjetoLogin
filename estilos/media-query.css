@@ -32,6 +32,32 @@ Grandes Telas: Acima de 1200px
         font-size: 1.2em;
         margin: 5px 20px;
     }
+    form{
+        margin-top: 70px
+    }
+    div.campo{
+        background-color: #fffbff;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 10px 0px;
+        border: 1px solid black;
+        padding: 0px 5px;
+    }
+    div.campo > span{
+
+        font-size: 2em;
+        width: 40px;
+        padding: 3px;
+    }
+    div.campo > input{
+        font-size: 1em;
+        height: 100%;
+        width: calc(100% - 12%);
+        border: 0px;
+        border-radius: 5px;
+        transform: translateY(-10px);
+    }
 }
 @media screen and (min-width: 992px) {
     body{
@@ -55,5 +81,8 @@ Grandes Telas: Acima de 1200px
    div#formulario > p {
     font-size: 1.2em;
     margin: 5px 20px;
+}
+form{
+    margin-top: 70px
 }
 }
